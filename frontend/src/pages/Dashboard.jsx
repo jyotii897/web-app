@@ -113,7 +113,11 @@ const Dashboard = () => {
       <nav className="flex justify-between items-center mb-8">
         <div>
           <h1 className="text-2xl font-bold">PlanIt.AI</h1>
-          <p className="text-slate-500 font-medium">{user.email}</p>
+          <div className="flex items-center gap-2">
+            <p className="text-slate-500 font-medium">Hello, <span className="text-primary-500 font-bold">Siya</span></p>
+            <span className="text-slate-300">|</span>
+            <p className="text-slate-400 text-sm">{user.email}</p>
+          </div>
         </div>
         <div className="flex gap-4 items-center">
           <button onClick={toggleTheme} className="p-2 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
