@@ -90,5 +90,5 @@ npm run dev
 ---
 
 <div align="center">
-  Built with ❤️ by [jyotii897](https://github.com/jyotii897)
+  Built with ❤️ by [Siya (jyotii897)](https://github.com/jyotii897)
 </div>
